@@ -7,4 +7,4 @@ RUN apk add --no-cache tini make gcc g++ python git nodejs nodejs-npm yarn \
     /usr/share/man \
     /tmp/*
 USER chrome
-ENTRYPOINT ["tini", "--"]
+ENTRYPOINT []
